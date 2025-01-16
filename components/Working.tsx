@@ -9,7 +9,7 @@ const Working = () => {
           How it works
         </p>
         <p className="w-[513px] h-[22px] text-normal text-[18px] leading-[22px] text-[#E0E0E0] text-center">
-          It's super easy to verify your email addresses with Verifier.
+          It &apos; super easy to verify your email addresses with Verifier.
         </p>
       </div>
       <div className="w-[884px] h-[216px] flex justify-between">

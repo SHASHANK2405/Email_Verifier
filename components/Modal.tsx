@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 interface ModalProps {
   isOpen: boolean;
@@ -42,7 +43,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
               Take me in
             </button>
           </div>
-          <img src="/assets/Group .png" alt="Group" />
+          <Image src="/assets/Group .png" alt="Group" />
         </div>
       </div>
     </div>

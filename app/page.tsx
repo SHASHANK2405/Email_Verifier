@@ -10,6 +10,7 @@ import WhoUsingVerifier from "@/components/WhoUsingVerifier";
 import FAQ from "@/components/FAQ";
 import ActionSection from "@/components/ActionSection";
 import Footer from "@/components/Footer";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -35,7 +36,7 @@ export default function Home() {
         <div className="max-w-[1200px] w-full mx-auto flex flex-col bg-[#09061A] relative z-10 gap-10">
           {/* Logo */}
           <div className="w-[150px] h-[40px] my-5">
-            <img src="/assets/Logo.png" alt="Logo" width={150} height={40} />
+            <Image src="/assets/Logo.png" alt="Logo" width={150} height={40} />
           </div>
 
           <HeroSection />

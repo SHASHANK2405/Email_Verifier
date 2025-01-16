@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "next/image";
+
 import VerifierUserCard from "./VerifierUserCard";
 
 const WhoUsingVerifier = () => {
@@ -36,7 +38,7 @@ const WhoUsingVerifier = () => {
             <p className="w-[287px] h-[132px] font-semibold text-[36px] leading-[44px] text-[linear-gradient(180deg,_#EEEEEE_0%,_#808080_100%)]">
               Irreplaceable tool for businesses
             </p>
-            <img src="/assets/who1.png" alt="who1" width={60} height={60} />
+            <Image src="/assets/who1.png" alt="who1" width={60} height={60} />
             <p className="w-[209px] h-[29px] font-medium text-[24px] leading-[30px] text-[#F0F0F0]">
               Service providers
             </p>

@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Plans = () => {
   return (
@@ -17,7 +18,7 @@ const Plans = () => {
   bg-[linear-gradient(112.96deg,_rgba(69,_81,_116,_0.64)_0%,_rgba(33,_50,_98,_0.24)_100%)] 
   backdrop-blur-[24px] shadow-inner-[0px_0px_5px_0px_#08003F2B]"
         >
-          <img
+          <Image
             src="/assets/credit selector.png"
             alt="cs"
             width={600}

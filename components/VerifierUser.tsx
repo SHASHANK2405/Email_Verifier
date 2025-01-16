@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const VerifierUser = () => {
   return (
@@ -12,14 +13,14 @@ const VerifierUser = () => {
         </p>
         <div className="w-[1080px] h-[44px] flex justify-between">
           <div className="flex justify-between">
-            <img
+            <Image
               src="/assets/Frame.png"
               alt="Frame"
               width={24} // Set width to 1060px
               height={24} // Set height to 300px
               className="object-cover" // This ensures the img covers the container without distortion
             />
-            <img
+            <Image
               src="/assets/logo 1.png"
               alt="logo 1"
               width={204} // Set width to 1060px
@@ -28,28 +29,28 @@ const VerifierUser = () => {
             />
           </div>
 
-          <img
+          <Image
             src="/assets/logo 2.png"
             alt="logo 2"
             width={150} // Set width to 1060px
             height={24} // Set height to 300px
             className="object-cover" // This ensures the img covers the container without distortion
           />
-          <img
+          <Image
             src="/assets/logo 3.png"
             alt="logo 3"
             width={83} // Set width to 1060px
             height={34} // Set height to 300px
             className="object-cover" // This ensures the img covers the container without distortion
           />
-          <img
+          <Image
             src="/assets/logo 4.png"
             alt="logo 4"
             width={46} // Set width to 1060px
             height={29} // Set height to 300px
             className="object-cover" // This ensures the img covers the container without distortion
           />
-          <img
+          <Image
             src="/assets/logo 5.png"
             alt="logo 5"
             width={61} // Set width to 1060px

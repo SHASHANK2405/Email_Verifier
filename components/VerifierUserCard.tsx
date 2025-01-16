@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 interface VerifierUserCardProps {
   image: string;
@@ -15,7 +16,7 @@ const VerifierUserCard: React.FC<VerifierUserCardProps> = ({
         bg-[radial-gradient(100%_100%_at_50%_0%,_#272436_0%,_#0B081C_50.32%,_#09061A_100%)] 
         border-[linear-gradient(180deg,_#484554_0%,_#120F22_100%)] flex flex-col justify-evenly items-start gap-2 p-4"
     >
-      <img
+      <Image
         src={image}
         alt="User"
         width={60}

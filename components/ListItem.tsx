@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 // Define the types for the props
 interface ListItemProps {
@@ -15,7 +16,7 @@ const ListItem: React.FC<ListItemProps> = ({ image, text1, text2 }) => {
     border-[linear-gradient(214.23deg,_rgba(57,_62,_77,_0.6)_0%,_rgba(33,_48,_92,_0.2)_100%)] 
     backdrop-blur-[12px] shadow-[1px_2px_8px_0px_#0000003D] shadow-inner-[0px_0px_5px_0px_#08003F2B] flex flex-col items-start justify-evenly my-6"
     >
-      <img src={image} alt={image} width={50} height={50} />
+      <Image src={image} alt={image} width={50} height={50} />
       <p className="w-[218px] h-[48px] font-medium text-[20px] leading-[25px] text-[#F0F0F0]">
         {text1}
       </p>

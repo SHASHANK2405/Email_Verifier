@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -10,7 +11,7 @@ const Footer = () => {
       }}
     >
       <div className="w-[438px] h-[120px] flex flex-col items-start gap-3">
-        <img src="/assets/Logo.png" alt="Logo" width={150} height={40} />
+        <Image src="/assets/Logo.png" alt="Logo" width={150} height={40} />
         <p className="w-[260px] h-[18px] text-[16px] leading-[18px] font-medium text-[#F0F0F0]">
           2024 Verifier. All rights reserved.
         </p>

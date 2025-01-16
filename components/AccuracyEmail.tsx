@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const AccuracyEmail = () => {
   return (
@@ -38,7 +39,7 @@ const AccuracyEmail = () => {
               <div className="w-[500px] h-[376px] flex flex-col justify-evenly items-start">
                 <div className="w-[500px] h-[376px] flex flex-col justify-evenly py-8 gap-8 items-start">
                   <div className="w-[267px] h-[30px] flex justify-between">
-                    <img
+                    <Image
                       src="/assets/icon4.png"
                       alt="icon4"
                       width={30}
@@ -57,7 +58,7 @@ const AccuracyEmail = () => {
                   </p>
                   <div className="w-[215px] h-[100px] flex flex-col gap-5 ">
                     <div className="w-[215px] h-[20px] flex gap-3">
-                      <img
+                      <Image
                         src="/assets/SUCCESS.png"
                         alt="SUCCESS"
                         width={18}
@@ -68,7 +69,7 @@ const AccuracyEmail = () => {
                       </p>
                     </div>
                     <div className="w-[215px] h-[20px] flex gap-3">
-                      <img
+                      <Image
                         src="/assets/SUCCESS.png"
                         alt="SUCCESS"
                         width={18}
@@ -79,7 +80,7 @@ const AccuracyEmail = () => {
                       </p>
                     </div>
                     <div className="w-[215px] h-[20px] flex gap-3">
-                      <img
+                      <Image
                         src="/assets/SUCCESS.png"
                         alt="SUCCESS"
                         width={18}
@@ -101,7 +102,7 @@ const AccuracyEmail = () => {
                   </button>
                 </div>
               </div>
-              <img
+              <Image
                 src="/assets/accurate.png"
                 alt="accurate"
                 width={421}
@@ -111,7 +112,7 @@ const AccuracyEmail = () => {
           </div>
           <div className="w-[1094px] h-[1011px] flex justify-between">
             {/* <div className="w-[989px] h-[485px] flex  justify-evenly"> */}
-            <img
+            <Image
               src="/assets/accurate2.png"
               alt="accurate2"
               width={421}
@@ -120,7 +121,7 @@ const AccuracyEmail = () => {
             <div className="w-[500px] h-[376px] flex flex-col justify-evenly items-start">
               <div className="w-[500px] h-[376px] flex flex-col justify-evenly py-8 gap-8 items-start">
                 <div className="w-[309px] h-[30px] flex justify-between">
-                  <img
+                  <Image
                     src="/assets/icon4.png"
                     alt="icon5"
                     width={30}
@@ -139,7 +140,7 @@ const AccuracyEmail = () => {
                 </p>
                 <div className="w-[464px] h-[100px] flex flex-col gap-5 ">
                   <div className="w-[464px] h-[20px] flex gap-3">
-                    <img
+                    <Image
                       src="/assets/SUCCESS.png"
                       alt="SUCCESS"
                       width={18}
@@ -151,7 +152,7 @@ const AccuracyEmail = () => {
                     </p>
                   </div>
                   <div className="w-[464px] h-[20px] flex gap-3">
-                    <img
+                    <Image
                       src="/assets/SUCCESS.png"
                       alt="SUCCESS"
                       width={18}
@@ -162,15 +163,15 @@ const AccuracyEmail = () => {
                     </p>
                   </div>
                   <div className="w-[464px] h-[20px] flex gap-3">
-                    <img
+                    <Image
                       src="/assets/SUCCESS.png"
                       alt="SUCCESS"
                       width={18}
                       height={18}
                     />
                     <p className="w-[464px] h-[20px] text-[16px] leading-[20px] font-normal text-[#E0E0E0]">
-                      Integrate the Verifier's real-time API into your website's
-                      registration process.{" "}
+                      Integrate the Verifier&apos; real-time API into your
+                      website&apos; registration process.{" "}
                     </p>
                   </div>
                 </div>
