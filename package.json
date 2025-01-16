@@ -2,15 +2,15 @@
   "name": "email-verifier",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://your-github-SHASHANK2405.github.io/email-verifier/",
+  "homepage": "https://SHASHANK2405.github.io/email-verifier/",
   "scripts": {
     "build": "next build",
     "export": "next build",
     "deploy": "npm run build && gh-pages -d out"
   },
   "dependencies": {
-    "gh-pages": "^6.3.0",
     "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.3.0",
     "next": "^13.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
