@@ -1,6 +1,4 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
+const nextConfig = {
   output: "export", // Keep this if you're using static export
   images: {
     unoptimized: true, // Remove if you want Next.js to optimize images on Vercel
@@ -8,4 +6,4 @@ const nextConfig: NextConfig = {
   trailingSlash: false, // Vercel does not need trailing slashes
 };
 
-export default nextConfig;
+module.exports = nextConfig;
