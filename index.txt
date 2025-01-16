@@ -4,7 +4,7 @@
 4:HL["/_next/static/media/b957ea75a84b6ea7-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 5:HL["/_next/static/media/eafabf029ad39a43-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 6:HL["/_next/static/css/5edda26a2f0c0d74.css","style",{"crossOrigin":""}]
-0:["lftd-Bpb-yfRmXb5xlihn",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L7",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/5edda26a2f0c0d74.css","precedence":"next","crossOrigin":""}]],"$L8"]]]]
+0:["J-pWj2gPRU8_5ZA1bhe6r",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L7",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/5edda26a2f0c0d74.css","precedence":"next","crossOrigin":""}]],"$L8"]]]]
 9:I[6954,[],""]
 a:I[7264,[],""]
 c:I[567,["452","static/chunks/5e22fd23-fd35fdc7d35552a5.js","931","static/chunks/app/page-ac35b25f992a8c8b.js"],""]
