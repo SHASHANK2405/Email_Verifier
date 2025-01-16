@@ -2,12 +2,14 @@
   "name": "email-verifier",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://your-github-SHASHANK2405.github.io/email-verifier/",
   "scripts": {
     "build": "next build",
-    "dev": "next dev",
-    "start": "next start"
+    "export": "next build",
+    "deploy": "npm run build && gh-pages -d out"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "autoprefixer": "^10.4.20",
     "next": "^13.0.0",
     "react": "^18.0.0",
@@ -17,12 +19,12 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@types/node": "^20",
-    "@types/react": "^18.0.0",
-    "@types/react-dom": "^18.0.0",
-    "eslint": "^8.0.0",
-    "eslint-config-next": "13.0.0",
-    "postcss": "^8.5.1",
-    "tailwindcss": "^3.4.17",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }
 }
