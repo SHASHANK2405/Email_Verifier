@@ -1,5 +1,5 @@
 import HeroSection from "@/components/HeroSection";
-import "@/styles/globals.css";
+import "../styles/globals.css";
 import Head from "next/head";
 import VerifierUser from "@/components/VerifierUser";
 import Working from "@/components/Working";
